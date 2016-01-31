@@ -1,5 +1,7 @@
 ##Getting and cleaning Data
-##Codebook.md
+###Codebook.md
+
+-----
 
 
 ### Transformations to data
@@ -9,13 +11,12 @@
 3. Renamed the variables containing mean and std
 4. Written the data in a new file, `tidy.txt`
 
+More details of how the aformentioned operations are carried through are found as comments in the `run_analysis.R` script.
+
 
 The variables, together with their description are found in `features_info.txt` and `features.txt` in the `UCI HAR Dataset` folder.
-The dataset zip containing the data and description of the data can be downloaded here:
 
-[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-
-The resulting variables (containing mean and std) are renamed as follows:
+The resulting variables (containing mean and std only) have the following final names:
 ```r
 
  [1] "Activity"                                       "Subject"                                       
@@ -54,8 +55,8 @@ The resulting variables (containing mean and std) are renamed as follows:
 [67] "FrequencyBodyBodyGyroJerkMag-Mean"              "FrequencyBodyBodyGyroJerkMag-StandardDeviation"
 
 ```
-with Gyro = Gyroscope
-and Acc = Accelerometer
-and Mag = Magnitute
-The variables are self explanatory. I did not rename the above three names into the full names as to avoid having very long variable names.
+with Gyro = Gyroscope    
+and Acc = Accelerometer    
+and Mag = Magnitute    
+
 
