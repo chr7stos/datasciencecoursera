@@ -20,6 +20,7 @@ The script `run_analysis.R` is built under the following instructions:
 
 
 For the script to work, you have to save the data in a folder named `data` in your **working directory**.
+The script will download the data in the `data` folder if you do not have the data already.
 
 The detailed variables located in the **tidy.txt** file that is generated at the end of the `run_analysis.R` script are documented in the `CodeBook.md`.
 
