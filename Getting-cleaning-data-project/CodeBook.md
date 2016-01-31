@@ -2,7 +2,7 @@
 ##Codebook.md
 
 
-The variables, together with their description are found in `features_info.txt` and `features.txt` in the dataset zip.
+The variables, together with their description are found in `features_info.txt` and `features.txt` in the `UCI HAR Dataset` folder.
 The dataset zip containing the data and description of the data can be downloaded here:
 
 [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
