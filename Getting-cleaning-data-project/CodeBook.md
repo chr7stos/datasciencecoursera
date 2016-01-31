@@ -1,9 +1,12 @@
 ##Getting and cleaning Data
 ##Codebook.md
 
->Describes the variables, the data, and any transformations or work that you performed to clean up the data
 
-1. The variables, together with their description are found in `features_info.txt` and `features.txt`
+The variables, together with their description are found in `features_info.txt` and `features.txt` in the dataset zip.
+The dataset zip containing the data and description of the data can be downloaded here:
+
+[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+
 The resulting variables (containing mean and std) are renamed as follows:
 ```r
  [3]"TimeBodyAcc-Mean()-X"                             "TimeBodyAcc-Mean()-Y"                            
