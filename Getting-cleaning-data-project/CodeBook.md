@@ -2,6 +2,14 @@
 ##Codebook.md
 
 
+### Transformations to data
+
+1. Merged in one data frame
+2. Extracted only variables containing mean and std
+3. Renamed the variables containing mean and std
+4. Written the data in a new file, `tidy.txt`
+
+
 The variables, together with their description are found in `features_info.txt` and `features.txt` in the `UCI HAR Dataset` folder.
 The dataset zip containing the data and description of the data can be downloaded here:
 
